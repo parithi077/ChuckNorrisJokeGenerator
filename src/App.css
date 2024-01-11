@@ -12,6 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.img{
+  padding-top: 1cm;
+}
 
 .App-header {
   background-color: #282c34;
@@ -22,6 +25,47 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.btn {padding: 10px 24px;}
+
+.btn {
+  transition-duration: 0.4s;
+}
+.btn{
+  font-size: 20px;
+}
+.btn:hover{
+  background-color: cadetblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt{
+  font-size:bold;
+  font-size: 48px;
+  font: Helvetica
+  
+}
+.txt{
+  border-style:solid;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-right: 300px;
+  margin-left: 300px;
+  background-color: grey;
+  
+}
+.txt2{
+  font-style: italic;
+  color: black;
+  background-color: grey;
+  margin-bottom: 50px ;
+  padding: 100px 100px 100px 100px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+body {
+  background-color: black
 }
 
 .App-link {
